@@ -8,6 +8,8 @@
                 document.getElementById("link_js").href="https://redirect.appmetrica.yandex.com/serve/460403702587474496?search_term={keyword}&campaign_id={campaign_id}&device_type={device_type}&region_name={region_name}&source_type={source_type}&source={source}&position_type={position_type}&phrase_id={phrase_id}&afpub_id={campaign_name_lat}&site_id={gbid}&creative_id={ad_id}&position={position}&ios_ifa={ios_ifa}&click_id={logid}";
                 return true;
             };
+
+            document.getElementById("link_onload").href = "https://apps.apple.com/app/id1632443454";
         }
     </script>
 </head>
@@ -40,6 +42,17 @@
             attributionsourcenonce="BAA-HE1hAAAAAAAA2sYbww"
         >
             link with JS
+        </a>
+    </p>
+
+    <p>
+        <a
+            id="link_onload"
+            href="https://redirect.appmetrica.yandex.com/serve/460403702587474496?search_term={keyword}&campaign_id={campaign_id}&device_type={device_type}&region_name={region_name}&source_type={source_type}&source={source}&position_type={position_type}&phrase_id={phrase_id}&afpub_id={campaign_name_lat}&site_id={gbid}&creative_id={ad_id}&position={position}&ios_ifa={ios_ifa}&click_id={logid}"
+            attributiondestination="https://appmetrica.yandex"
+            attributionsourcenonce="BAA-HE1hAAAAAAAA2sYbww"
+        >
+            link OnLoad
         </a>
     </p>
 </body>
